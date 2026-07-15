@@ -29,3 +29,5 @@
     @endguest
 
 @endsection
+
+<x-alert></x-alert>
