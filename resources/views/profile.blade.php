@@ -30,4 +30,9 @@
 
 @endsection
 
-<x-alert></x-alert>
+<x-alert bg="bg-rose-600" role="alert">
+    <h1>test</h1>
+    <x-slot:title>
+        Light
+    </x-slot:title>
+</x-alert>
