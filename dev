@@ -1,0 +1,23 @@
+> vite
+
+error when starting dev server:
+Error: Port 5173 is already in use
+    at httpServerStart (file:///var/w
+    at httpServerStart (file:///var/www/html/node_modules/vite/dist/node/c
+    at httpServerStart (file:///var/www/html/node_modules/vite/dist/node/chunks/node.js:11044:10)
+    at process.processTicksAndRejecti
+    at process.processTicksAndRejections (node:internal/process/task_queue
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async startServer (file:///var
+    at async startServer (file:///var/www/html/node_modules/vite/dist/node
+    at async startServer (file:///var/www/html/node_modules/vite/dist/node/chunks/node.js:25621:30)
+    at async Object.listen (file:///v
+    at async Object.listen (file:///var/www/html/node_modules/vite/dist/no
+    at async Object.listen (file:///var/www/html/node_modules/vite/dist/node/chunks/node.js:25438:4)
+    at async CAC.<anonymous> (file://
+    at async CAC.<anonymous> (file:///var/www/html/node_modules/vite/dist/
+    at async CAC.<anonymous> (file:///var/www/html/node_modules/vite/dist/node/cli.js:721:3)
+
+What's next:
+    Debug this Compose error with Gor
+    Debug this Compose error with Gordon → docker ai "help me fix this com

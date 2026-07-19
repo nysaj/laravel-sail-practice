@@ -28,6 +28,8 @@
         <button>ログイン</button>  
     @endguest
 
+    <img src="{{ asset('images/Octocat-400x400.png') }}" alt="">
+
 @endsection
 
 <x-alert bg="bg-rose-600" role="alert">
